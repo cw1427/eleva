@@ -1,0 +1,8 @@
+[
+  {
+    "type": "spacer", "size": "large"
+  },
+  {
+    "type": "button", "icon": "about", "id": "app.about", "command": "application:about", "command-before": "application:show,index"
+  }
+]

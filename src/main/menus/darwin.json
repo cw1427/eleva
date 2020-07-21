@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "id": "menu.app",
+      "submenu": [
+        { "id": "app.about", "command": "application:about", "command-before": "application:show,index" },
+        { "type": "separator" },
+        { "id": "app.check-for-updates", "command": "application:check-for-updates" },
+        { "id": "app.show", "command": "application:show", "command-arg": "index" },
+        { "id": "app.hide", "role": "hide" },
+        { "id": "app.hide-others", "role": "hideothers" },
+        { "id": "app.unhide", "role": "unhide" },
+        { "type": "separator" },
+        { "id": "app.quit", "command": "application:quit" }
+      ]
+    },
+    {
+      "role": "window",
+      "id": "menu.window",
+      "submenu": [
+        { "id": "window.reload", "role": "reload" },
+        { "id": "window.close", "role": "close" },
+        { "id": "window.minimize", "role": "minimize" },
+        { "id": "window.zoom", "role": "zoom" },
+        { "id": "window.toggle-fullscreen", "role": "togglefullscreen" },
+        { "type": "separator" },
+        { "id": "window.front", "role": "front" }
+      ]
+    },
+    {
+      "role": "help",
+      "id": "menu.help",
+      "submenu": [
+        { "id": "help.toggle-dev-tools", "role": "toggledevtools" },
+        { "type": "separator" },
+        {"id":"help.about", "role": "about"}
+      ]
+    }
+  ]
+}
